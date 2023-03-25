@@ -841,13 +841,17 @@ transition:0.5s;}
   .frontierpics{
     width:80px !important;
     position:absolute !important;
-    top:33% !important;
-    left:40% !important;
+    top:27% !important;
+    left:33% !important;
   }
 
   .s4 .container .col-sm-12{
     margin-top: 10%;
     display: grid;
+  }
+
+  .s6 .container{
+    flex-direction:column ;
   }
   .s4h1{
     position:relative;
@@ -1047,6 +1051,17 @@ justify-content:center;
 .buttonmobile{
   justify-content: center;
   display:flex;
+}
+  .s6 .clock
+{
+  margin-left:0%;
+}
+
+.s8pic{
+  width:100%;
+}
+.title_s6{
+  width:100%;
 }
 }
 
