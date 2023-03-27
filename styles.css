@@ -993,7 +993,7 @@ border-radius: 20px;
   padding:25px 0px;
 }
 
-.cardsection{
+.card-containers4{
   padding-left:0px !important;
   padding-right:7% !important;
   margin-left:-5%
@@ -1192,7 +1192,7 @@ white-space:nowrap;
 }
 
 .s7{
-  padding:15% 0%;
+  padding:50px;
 }
 
 .s7 .card{
@@ -1254,7 +1254,7 @@ padding:0% 10%;
 }
 
 .s8{
-  margin-top:10%;
+  margin-top:5%;
 }
 
 .s8 .card{
@@ -1382,9 +1382,8 @@ margin-left:4%
 height: 32px;
 }
 
-.contents9_2{
-  margin-top: 25% !important;
-  margin-left: 22%;
+.contents9_2{margin-top: 10% !important;
+  margin-left: 37%;
   white-space:nowrap;
 }
 
@@ -1468,7 +1467,6 @@ padding:8% 2%;
 }
 
 .emailpart{
-  margin-left:8.3370862%;
   white-space: nowrap;
 }
 
