@@ -835,6 +835,9 @@ transition:0.5s;}
   top: 20%;
   left: 25%;
 }
+.input-group{
+  margin-top:10% !important;
+}
 
 
 @media (max-width:768px){
@@ -845,6 +848,10 @@ transition:0.5s;}
     left:33% !important;
   }
 
+  .emailpart{
+    margin-top:10% !important;
+  }
+  
   .s4 .container .col-sm-12{
     margin-top: 10%;
     display: grid;
@@ -1014,6 +1021,21 @@ border-radius: 20px;
 
   }
 
+  .btn-custom{
+    width:100% !important;
+  }
+
+  .input-group-append{
+    padding:30px;
+  }
+  .input-group{
+    padding:10px;
+    right:7%;
+  }
+
+  .emailpart{margin-left:5% !important;
+
+  }
 
   .nft2{justify-content:flex-start;
     display:grid;
@@ -1347,9 +1369,6 @@ color: #FFFFFF !important;
   margin-left: -50px !important;
 }
 
-.input-group{
-  margin-top:10% !important;
-}
 
 .nfts9{
   font-family: 'Space Mono';
@@ -1478,6 +1497,7 @@ padding:8% 2%;
 
 .emailpart{
   white-space: nowrap;
+
 }
 
 .s9 .email-input{
