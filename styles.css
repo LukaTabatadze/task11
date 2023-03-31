@@ -865,7 +865,10 @@ transition:0.5s;}
     top:27% !important;
     left:33% !important;
   }
-
+.s4 .container .card{
+  width:115%;
+  gap:5% !important;
+}
   .emailpart{
     margin-top:10% !important;
   }
@@ -875,8 +878,12 @@ transition:0.5s;}
     display: grid;
   }
 
+
   .s6 .container{
     flex-direction:column ;
+    margin-left:3% !important;
+    padding-right: 9% !important;
+
   }
   .s4h1{
     position:relative;
@@ -899,6 +906,13 @@ transition:0.5s;}
 
 }
 
+
+.s6{
+  margin-top: 10%;
+}
+.s6 .container{
+  align-content: baseline !important
+}
 .s5{
   margin-top:15%;
 }
@@ -1021,7 +1035,8 @@ border-radius: 20px;
 .card-containers4{
   padding-left:0px !important;
   padding-right:7% !important;
-  margin-left:-5%
+  margin-left:-5%;
+  --bs-gutter-x:2rem !important;
 }
 
 .s5 .card:hover{
@@ -1039,6 +1054,20 @@ border-radius: 20px;
 
   }
 
+  
+.s7{
+  padding:0 !important;
+}
+  .s5 .row{
+    padding:0;
+  }
+  .s5 .card{
+    width:103%;
+    height: auto;
+  }
+  .s5 .cards5{
+    width:100%;
+  }
   .btn-custom{
     width:100% !important;
   }
@@ -1088,7 +1117,7 @@ justify-content: center;
 align-items: center;
 padding: 0px 50px;
 gap: 12px;
-
+width:100% !important;
 width: 315px;
 height: 60px;
 
@@ -1113,6 +1142,32 @@ justify-content:center;
 .title_s6{
   width:100%;
 }
+.bg-image{
+  background-image:url(pics/NFT_Highlightmversion.png) !important;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+}
+.clock{width:100% !important;
+justify-content: center !important;
+align-items: center !important;
+}
+.buttons6_2{
+  width:100% !important;
+}
+.s7 .container .card{
+  flex-direction: row;
+}
+.s7pics{width:150px;
+margin-top:15%}
+
+.bg-image{
+  padding:50px 0px !important;
+  
+}
 }
 
 .bg-image{
@@ -1122,9 +1177,11 @@ background-repeat: no-repeat;
 background-position:center;
 background-size: cover;
 position: relative;
-padding: 200px 0;
+padding: 200px 0 50px 100px;
 }
-
+.mobile{
+  display: flex !important;
+}
 .buttons6_1{
   display: flex;
 flex-direction: row;
@@ -1243,6 +1300,7 @@ white-space:nowrap;
 
 .s7{
   padding:50px;
+  margin-top:15%;
 }
 
 .s7 .card{
@@ -1304,7 +1362,7 @@ padding:0% 10%;
 }
 
 .s8{
-  margin-top:5%;
+  margin-top:15%;
 }
 
 .s8 .card{
