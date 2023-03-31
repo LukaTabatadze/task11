@@ -20,6 +20,7 @@
     width: 510px;
     height: 510px;
   }
+
 }
 *{
   margin:0;
@@ -41,6 +42,12 @@ body {
 @media (max-width:768px){
   .buttons5{
     margin-bottom:15%;
+  }
+  .gif{
+    width:120% !important;
+height: 120% !important;
+    right: 10%;
+    position: relative;
   }
 }
 
@@ -212,6 +219,7 @@ body {
     height: 50px !important;
     background: #A259FF;
     border-radius: 20px;
+    margin-top:25%;
   }
 
   .s1m .button3m span {
@@ -714,6 +722,9 @@ body {
     border-radius: 20px;
     margin-bottom: 20px;
 
+  }
+  .s3 .card{
+    padding-right:20px;
   }
 
   .numeration {
