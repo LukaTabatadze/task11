@@ -18,7 +18,7 @@
     display:grid;
     width:100%;
     padding: 12px 8%;
-    margin-left: 6%;
+    margin-left: 1%;
    }
   .navbar {
     background-color: #2B2B2B;
@@ -176,19 +176,39 @@ text-align: center;
 text-transform: capitalize;
 color: #858584;
 text-decoration:none;
-margin-left:100px  }
+margin-left:40%  }
 
-  .active{
-    border-bottom:1px solid #ffffff;
+  .active{display: grid;
+    justify-content: center;
     color:#ffffff;
-    margin-bottom:10px;
   }
 
+  .time-filter{
+    width:105%;
+    margin-right:3%;
+  }
+.active hr{
+  display: grid;
+  justify-content: center;
+  width:500%;
+  margin-right: 5%;
+  margin:0 !important;
+}
   .active a{color:#ffffff}
 
   .active a:hover{color:#FFFFFF}
 
- 
+.month-a{
+  margin-left:30%;
+}
+
+ .active-a{
+  margin-left:200%;
+ }
+
+.week-a{
+  margin-left:60%;
+}
 
   .time-filter-a:hover{
     color:#858584;
@@ -213,7 +233,7 @@ margin-left:100px  }
     flex-direction: row;
     height: auto;
     mix-blend-mode: normal;
-padding:0px 100px;
+padding:40px 50px;
     position: relative;
     white-space: nowrap;
   }
@@ -231,7 +251,7 @@ padding: 12px 30px;
 gap: 10px;
 align-items: stretch;
 /* Background - Secondary */
-margin-left:6.5% !important;
+margin-left:3% !important;
 margin-right:2% !important;
 border: 1px solid #3B3B3B;
 border-radius: 20px;
@@ -263,7 +283,7 @@ color: #858584;
   left: 0px;
   margin: 0px; 
   mix-blend-mode: normal;
-
+  margin-bottom:8%;
   position: relative;
   top: 0px;
   width: 100%;
@@ -273,6 +293,7 @@ color: #858584;
   background: #3B3B3B;
 border-radius: 20px;
 padding:10px;
+width:100%:
 }
 
 .cover{
@@ -540,7 +561,7 @@ margin-left:4%;
   width: 100%;
   height:auto;
   background: #3B3B3B;
-  margin-top:152%;
+  margin-top:162%;
   
 }
 
