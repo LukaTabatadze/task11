@@ -581,3 +581,59 @@ display: block;
 .s9h5{
   margin-top:5%;
 }
+
+
+@media only screen and (max-width:768px) {
+  .header-h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+/* White */
+
+color: #FFFFFF;
+
+  }
+
+  .header-h4{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* White */
+
+color: #FFFFFF;
+
+  }
+
+  .header{
+    right:0%;
+    padding:30px;
+  }
+  .span_3,.span_4{
+    display: none;
+  }
+  .span_2{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+white-space: nowrap;
+
+color: #FFFFFF;
+  }
+  
+}
