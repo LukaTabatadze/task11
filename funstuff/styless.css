@@ -430,7 +430,11 @@ color: #FFFFFF;
   .s9h5{
     margin-top:5%;
   }
-  
+  @media (max-width:768px){
+    .btu{
+      margin-bottom:10%;
+    }
+  }
 
   .button0{
     display: flex;

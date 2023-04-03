@@ -1,3 +1,24 @@
 body{
     color:white
 }
+
+.inputclass{
+    background-color: transparent;
+    border: 1px solid #858584;
+    border-radius: 20px;
+}
+
+.inputclass::placeholder{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+padding:40px 20px !important;
+/* Caption & Label Text */
+
+color: #858584;
+
+}

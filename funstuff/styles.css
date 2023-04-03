@@ -230,7 +230,20 @@ line-height: 140%;
 /* White */
 
 color: #FFFFFF;
+padding-right:0;
+    }
+    .form-group{
+      width:83% !important;
+    }
 
+    .btns{
+      width:83% !important;
+    }
+    .forms{
+      margin-bottom:10%;
+    }
+    .s9h6{
+      padding-right:20%;
     }
   }
 
@@ -455,4 +468,3 @@ color: #FFFFFF;
   .s9h5{
     margin-top:5%;
   }
-  

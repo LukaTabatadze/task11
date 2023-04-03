@@ -240,12 +240,13 @@ padding:40px 50px;
 
   #time-filter-id{
     justify-content:center !important;
+    
   }
 
 
   #listContainer{
     display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 padding: 12px 30px;
 gap: 10px;
@@ -256,6 +257,7 @@ margin-right:2% !important;
 border: 1px solid #3B3B3B;
 border-radius: 20px;
 height:100%;
+width: 84%;
   }
 
   #listContainer span{
@@ -283,17 +285,18 @@ color: #858584;
   left: 0px;
   margin: 0px; 
   mix-blend-mode: normal;
-  margin-bottom:8%;
   position: relative;
   top: 0px;
   width: 100%;
+  margin-bottom: 59%;
 }
 
 .avatar_content{display:flex;
   background: #3B3B3B;
 border-radius: 20px;
 padding:10px;
-width:100%:
+width:100%;
+white-space: nowrap;
 }
 
 .cover{
@@ -561,13 +564,13 @@ margin-left:4%;
   width: 100%;
   height:auto;
   background: #3B3B3B;
-  margin-top:162%;
-  
+
 }
 
-.s2 .container{
+.s2 {
 padding:8% 2%;
 display: block;
+margin-top:50%
 }
 
 .emailpart{
@@ -602,6 +605,51 @@ color: #FFFFFF;
 
   }
 
+  .span_3,.span_4,.span_5{
+    top:10%;
+    position: relative;
+  }
+
+  .span_2{
+    top:10%;
+    position: relative;
+  }
+  .cover{
+    top:10%;
+    position: relative;
+  }
+#time-filter-id{
+  width:90%;
+}
+
+.avatar_content img{
+  width:24px !important;
+  height:24px !important;
+}
+  .s9h1{
+    text-align: left;
+    margin-top: 3%;
+  }
+
+  .contents9_2{
+    margin-left:3% !important;
+    
+  }
+
+  .s9h2{
+    margin-left: 3% !important ;
+  }
+
+  .s9h5{
+    margin-left: 3% !important;
+  }
+  .input-group-append{
+    margin:0 !important;
+    margin-top:2% !important;
+  }
+  .input-group-append .btn-custom{
+    width:100% !important;
+  }
   .header-h4{
     font-family: 'Work Sans';
 font-style: normal;
@@ -635,5 +683,37 @@ white-space: nowrap;
 
 color: #FFFFFF;
   }
-  
+.s2{
+  margin-top:45rem !important;
+}
+}
+
+@media (max-width:575px){
+  .s2{
+    margin-top:35rem !important;
+  }
+
+.span_2{
+  font-size: smaller;
+}
+.span_5{
+  font-size: smaller;
+}
+.navbar-brand{
+  font-size: smaller !important;
+
+}
+.bar1,.bar3{
+  width:20px !important;
+  height:3.75px !important;
+}
+.bar2{
+  width: 25px !important;
+  height: 4.25px !important;
+}
+}
+
+@media (max-width:350px){
+  .span_2{font-size: x-small;}
+  .span_5{font-size: x-small;}
 }

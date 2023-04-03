@@ -96,6 +96,33 @@ color: #858584;
     .container {
       padding: 30px 40px;
     }
+
+    .auction{
+        margin-left: 0 !important;
+        margin-top:2%;
+        margin-bottom: 2%;
+    }
+    .tagcontent{
+        flex-direction: column !important;
+    }
+    .moreh1{
+        padding:20px 30px !important;
+        font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px !important;
+line-height: 140%;
+/* or 39px */
+
+text-transform: capitalize;
+
+/* White */
+
+color: #FFFFFF;
+    }
+   .card-row{
+    padding:10px 30px !important; 
+   }
   }
 
   .avatarimg{
