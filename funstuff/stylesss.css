@@ -482,3 +482,37 @@ color: #FFFFFF;
     .pr-custom{
         padding-right:10%;
     }
+
+    
+  @media (max-width:702px)
+  {
+    .switch{
+      width:25% !important;
+    }
+    .nft2{
+      margin-left: 17%;
+      margin-top:25%;
+    }
+    .contents9_2{
+      margin-left: 17% !important;
+      margin-top:30% !important;
+    }
+    .emailpart{
+      margin-left:3%;
+      margin-top: 5%;
+    }
+    .input-group-append{
+      margin:0px !important;
+      width: 100% !important;
+    }
+    .btn-custom{
+      width:100% !important;
+      margin-top: 2% !important;
+    }
+    .input-group{
+      height:60px !important;
+    }
+    .form-control{
+      border-radius:  20px !important;
+    }
+  }

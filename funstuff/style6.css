@@ -4,8 +4,10 @@ body{
 
 .inputclass{
     background-color: transparent;
-    border: 1px solid #858584;
+    border: 0.5px solid #858584;
     border-radius: 20px;
+    height:200%;
+    width:125%;
 }
 
 .inputclass::placeholder{
@@ -22,3 +24,69 @@ padding:40px 20px !important;
 color: #858584;
 
 }
+
+.search-box {
+    position: relative;
+    display: grid;
+    vertical-align: middle;
+    margin-top:2% ;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #858584;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .search-box button[type="submit"] {
+    position: absolute;
+    top: 38%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 30px;
+    margin-left:119%
+  }
+  
+  .search-box button[type="submit"] i {
+    color: #858584;
+  }
+  
+  .search-box input[type="text"]::placeholder {
+    color: #858584;
+  }
+
+  @media (max-width:769px){
+    .search-box button[type="submit"] {
+        position: absolute;
+        top: 38%;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding-right: 30px;
+        margin-left:110%
+      }
+      .navbar .container{
+        padding:0 !important;
+      }
+      #container1{
+        padding:30px !important;
+      }
+      .search-box{
+        width:78% !important;
+        margin-bottom: 5% !important;
+    }
+    .list{
+        margin:0 !important;
+    }
+  }
+
+  .footer_a{
+    margin-left:4%;
+  }
+  .list-a:hover{
+    transform:scale3d(0.8);
+    color:#858584
+  }

@@ -227,3 +227,33 @@ color: #FFFFFF;
 
 .list{display: flex;
     margin-left:15%;}
+
+    @media (max-width:700px){
+        .s2{
+            margin-top: 2% !important;
+        }
+    }
+
+    @media (max-width:575px){
+        .s2{
+            margin-top: 2% !important;
+        }
+        .container{
+            padding-left:30px !important
+        }
+        .numberh5{
+            font-size: 22px;
+            margin-left:5%;
+        }
+        .list{
+            margin-left: 0% !important;
+            padding:0px 7% !important;
+            
+        }
+        .list-a{
+            font-size: 16px;
+        }
+        .nft2{
+            margin-left:0% !important;
+        }
+    }
