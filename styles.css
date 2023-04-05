@@ -1593,3 +1593,22 @@ padding:8% 2%;
   background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
   z-index: 0;
 }
+
+@media (min-width:1440px){
+#gifcontainer1{
+  right:-23% !important;
+  position:relative;
+}
+.s2{
+  position: relative;
+  right:-16% !important;
+}
+.s3,.s4,.s5{
+  position:relative;
+  right:-8% !important
+}
+.sections{
+  position:relative;
+  right:-33% !important;
+}
+}
