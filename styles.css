@@ -399,9 +399,7 @@ height: 120% !important;
 }
 
 .s2container {
-  margin-left: 5% !important;
   display: grid;
-  justify-content: center;
 }
 
 .trendh2 {
@@ -1288,6 +1286,8 @@ white-space:nowrap;
   position:relative;
   margin-top:10%;
   display:flex;
+  width: 53%;
+  margin-left: 11% !important;
 }
 .leftrow{
       flex: 1 0 70% !important;
@@ -1300,7 +1300,6 @@ white-space:nowrap;
 
 .s7{
   padding:50px;
-  margin-top:15%;
 }
 
 .s7 .card{
@@ -1362,7 +1361,7 @@ padding:0% 10%;
 }
 
 .s8{
-  margin-top:15%;
+  margin-top:5%;
 }
 
 .s8 .card{
@@ -1564,7 +1563,7 @@ margin-left:4%;
   width: 100%;
   height:auto;
   background: #3B3B3B;
-  margin-top:10%;
+  margin-top:5%;
 }
 
 .s9 .container{
@@ -1599,14 +1598,7 @@ padding:8% 2%;
   right:-23% !important;
   position:relative;
 }
-.s2{
-  position: relative;
-  right:-16% !important;
-}
-.s3,.s4,.s5{
-  position:relative;
-  right:-8% !important
-}
+
 .sections{
   position:relative;
   right:-33% !important;

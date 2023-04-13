@@ -516,3 +516,13 @@ color: #FFFFFF;
       border-radius:  20px !important;
     }
   }
+
+
+  #contentcontainer{
+    padding:4% 0 4% 6%
+  }
+
+  .card.auction{
+    position: relative;
+    left:20%;
+  }

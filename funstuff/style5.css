@@ -153,6 +153,7 @@ color: #FFFFFF;
     height: auto !important;
     background: #3B3B3B !important;
     margin: 0 !important;
+    padding:8% 5% !important;
 }
 
 .container{
@@ -225,8 +226,7 @@ color: #FFFFFF;
 
 }
 
-.list{display: flex;
-    margin-left:15%;}
+.list{display: flex;}
 
     @media (max-width:700px){
         .s2{
@@ -256,4 +256,27 @@ color: #FFFFFF;
         .nft2{
             margin-left:0% !important;
         }
+    }
+.nft2{
+    position: relative;
+    left:-6% !important;
+}
+
+    #contentContainer{
+        padding:13px 0% 4% 10%;
+    }
+
+    .numberbox{
+        position: relative;
+        left:-2% !important
+    }
+
+    .owned{
+        position: relative;
+        left:11%;
+    }
+
+    .collection{
+        position: relative;
+        left:8%
     }
